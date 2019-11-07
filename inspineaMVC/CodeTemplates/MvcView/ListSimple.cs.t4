@@ -1,0 +1,179 @@
+﻿<#@ template language="C#" HostSpecific="True" #>
+<#@ output extension=".cshtml" #>
+<#@ include file="Imports.include.t4" #>
+@model <#= ViewDataTypeName #>
+<#
+// The following chained if-statement outputs the file header code and markup for a partial view, a view using a layout page, or a regular view.
+if(IsPartialView) {
+	#>
+	<#
+	} else if(IsLayoutPageSelected) {
+	#>
+	@{
+		ViewBag.Title = "<#= ViewName#>";
+	<#
+	if (!String.IsNullOrEmpty(LayoutPageFile)) {
+	#>
+		Layout = "<#= LayoutPageFile#>";
+<#
+}
+#>
+	}
+	<div class="row wrapper border-bottom white-bg page-heading">
+		<div class="col-sm-4">
+			<ol class="breadcrumb">
+				<li class="active">
+					<strong><#= ViewDataTypeShortName #></strong>
+				</li>
+			</ol>
+		</div>
+	</div>
+	<#
+	} else {
+	#>
+	@{
+		Layout = null;
+	}
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title><#= ViewName #></title>
+	</head>
+	<body>
+	<#
+		PushIndent("    ");
+	}
+	#>
+	<div class="wrapper wrapper-content animated fadeInRight">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<input type="button" class="btn btn-primary btn-xs pull-left" id="btnActualizar" value="Actualizar" />
+                        <input type="button" class="btn btn-primary btn-xs pull-right" data-toggle="modal" data-target="#modalNuevo" value="Nuevo" />
+					</div>
+					<div class="ibox-content">
+						<table id="tabla" class="table table-striped">	
+						<thead>
+							<tr>
+						<#
+						IEnumerable<PropertyMetadata> properties = ModelMetadata.Properties;
+						foreach (PropertyMetadata property in properties) {
+						#>
+					<th>
+									@Html.DisplayNameFor(model => model.<#= GetValueExpression(property) #>)
+								</th>
+								<#
+								}
+								#>
+								<th>Acciones</th>			
+							</tr>		
+						</thead>
+						<tbody></tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	 </div>	 
+@section Styles{
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+    @Styles.Render("~/Content/tabla")
+}
+
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+    @Scripts.Render("~/general/Simple")
+    @Scripts.Render("~/view/Persona")
+}
+@*
+	//en la primera variable declaramos la ruta del controlador
+	//--'/"Controlador"'
+	var DireccionURL = '/Persona';
+	//aqui  especificamos que datos llevará nuestro 
+	//--JSON(Datos) que recuperará del controlador atravez de AJAX
+	function EstructuraDatos() {
+		Datos = { BusinessEntityID: "", Empleado: "", Persona: "" };
+	}
+	//en esta areá definimos que datos llevará la tabla
+	//--IsNull() es una funcion que puede llamar para verificar que que esta 
+	//      definido el campo... si no lo esta, devolvera ""
+	//--Para agregar una celda debe usar el objeto "Columnas" 
+	//  ejemplo:
+	//  Columnas."columna de la tabla"=IsNull(obj."tabla que creo en formato JSON"."Campo de la tabla")
+	//  Columnas["columna de la tabla"]=IsNull(obj["tabla que creo en formato JSON"]["Campo de la tabla"])
+	function addRow(i, obj) {
+		Columnas.FirstName = IsNull(obj.Persona.FirstName);
+		Columnas.MiddleName = IsNull(obj.Persona.MiddleName);
+		Columnas.LastName = IsNull(obj.Persona.LastName);
+		Columnas.EmailPromotion = IsNull(obj.Persona.EmailPromotion);
+		Columnas.Acciones = '<div data-indice="' + i + '" class="btn-group encabezado">' +
+							'<button name="' + i + '" class="btn btn-primary btn-xs margin Details " type="button" data-toggle="modal" data-target="#modalDetalles"><span class="bold">Detalles</span></button>' +
+							'<button name="' + i + '" class="btn btn-white btn-xs margin editar" type="button" data-toggle="modal" data-target="#modalModificar"><span class="bold">Editar</span></button>' +
+					  '</div>';
+	}
+	//ObtenerDatos('/aqui va el nombre del modal('Nuevo','modificar')/', aqui va el objeto que van a llenar);
+	$(document).ready(function () {
+		//cargarObjetos();
+		prepararTabla();
+		llenarTable('llenartabla');
+		btnDefault();
+		//CargarDDl('EmaiPromotion/id=' + 6, ['ddlNuevoEmailPromotion'])
+		$("#btnDetalles").click(function () {
+		});
+		$("#btnNuevo").click(function () {
+			ObtenerDatos('Nuevo', persona);
+			console.log(persona);
+		});
+		$("#btnModificar").click(function () {
+			ObtenerDatos('Modificar', persona);
+			console.log(persona);
+		});
+		$("#btnEliminar").click(function () {
+		});
+		$("#btnActualizar").click(function () {
+			llenarTable('llenartabla');
+		});
+	});
+	function btnDefault() {
+    $('#tabla tbody ').on('click', 'td button.editar', function () {
+        var indice = $(this).closest("tr").find(".encabezado").data("indice");
+        var fila = datos[indice];
+        var id = fila[Object.keys(Datos)[0]];
+        url = DireccionURL + "/Edit/" + id;
+        $(location).attr('href', url);
+    });
+    $('#tabla tbody').on('click', 'td button.Details', function () {
+        var indice = $(this).closest("tr").find(".encabezado").data("indice");
+        var fila = datos[indice];
+        var id = fila[Object.keys(Datos)[0]];
+        url = DireccionURL + "/Details/" + id;
+        $(location).attr('href', url);
+    });
+    $("#btnActualizar").click(function () {
+        $('#tabla').parents('div.dataTables_wrapper').first().hide();
+        llenarTable();
+    });
+    $("#btnAgregar").click(function () {
+        EstructuraDatos();
+        $.each(PropiedadesModal, function (value, index) {
+            var dato = "";
+            TipoDeControles[index].llenar('Nuevo', value, dato);
+        });
+    });
+}
+*@
+	<#
+	// The following code closes the tag used in the case of a view using a layout page and the body and html tags in the case of a regular view page
+	#>
+	<#
+	if(!IsPartialView && !IsLayoutPageSelected) {
+		ClearIndent();
+	#>
+	</body>
+	</html>
+	<#
+}
+#>
+<#@ include file="ModelMetadataFunctions.cs.include.t4" #>

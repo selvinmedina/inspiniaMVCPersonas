@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RecursosHumanosModelStoreContainer" CdmEntityContainer="RecursosHumanosEntities">
+    <EntitySetMapping Name="tbFaseSeleccion">
+      <EntityTypeMapping TypeName="RecursosHumanosModel.tbFaseSeleccion">
+        <MappingFragment StoreEntitySet="tbFaseSeleccion">
+          <ScalarProperty Name="fsel_Id" ColumnName="fsel_Id" />
+          <ScalarProperty Name="fare_Id" ColumnName="fare_Id" />
+          <ScalarProperty Name="fare_fecha" ColumnName="fare_fecha" />
+          <ScalarProperty Name="fsel_UsuarioCrea" ColumnName="fsel_UsuarioCrea" />
+          <ScalarProperty Name="fsel_FechaCrea" ColumnName="fsel_FechaCrea" />
+          <ScalarProperty Name="fsel_UsuarioModifica" ColumnName="fsel_UsuarioModifica" />
+          <ScalarProperty Name="fsel_FechaModifica" ColumnName="fsel_FechaModifica" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbFasesReclutamiento">
+      <EntityTypeMapping TypeName="RecursosHumanosModel.tbFasesReclutamiento">
+        <MappingFragment StoreEntitySet="tbFasesReclutamiento">
+          <ScalarProperty Name="fare_Id" ColumnName="fare_Id" />
+          <ScalarProperty Name="fare_Descripcion" ColumnName="fare_Descripcion" />
+          <ScalarProperty Name="fare_Estado" ColumnName="fare_Estado" />
+          <ScalarProperty Name="fare_UsuarioCrea" ColumnName="fare_UsuarioCrea" />
+          <ScalarProperty Name="fare_FechaCrea" ColumnName="fare_FechaCrea" />
+          <ScalarProperty Name="fare_UsuarioModifica" ColumnName="fare_UsuarioModifica" />
+          <ScalarProperty Name="fare_FechaModifica" ColumnName="fare_FechaModifica" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prueba">
+      <EntityTypeMapping TypeName="RecursosHumanosModel.Prueba">
+        <MappingFragment StoreEntitySet="Prueba">
+          <ScalarProperty Name="DatosPrincipales" ColumnName="DatosPrincipales" />
+          <ScalarProperty Name="FasesReclutamiento" ColumnName="FasesReclutamiento" />
+          <ScalarProperty Name="fsel_Id" ColumnName="fsel_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="FasesReclutamiento" FunctionName="RecursosHumanosModel.Store.FasesReclutamiento">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="RecursosHumanosModel.FasesReclutamiento_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

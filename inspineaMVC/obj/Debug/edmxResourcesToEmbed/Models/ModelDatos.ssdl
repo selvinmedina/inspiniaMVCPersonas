@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RecursosHumanosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbFaseSeleccion">
+    <Key>
+      <PropertyRef Name="fsel_Id" />
+    </Key>
+    <Property Name="fsel_Id" Type="int" Nullable="false" />
+    <Property Name="fare_Id" Type="int" Nullable="false" />
+    <Property Name="fare_fecha" Type="datetime" Nullable="false" />
+    <Property Name="fsel_UsuarioCrea" Type="int" Nullable="false" />
+    <Property Name="fsel_FechaCrea" Type="datetime" Nullable="false" />
+    <Property Name="fsel_UsuarioModifica" Type="int" />
+    <Property Name="fsel_FechaModifica" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbFasesReclutamiento">
+    <Key>
+      <PropertyRef Name="fare_Id" />
+    </Key>
+    <Property Name="fare_Id" Type="int" Nullable="false" />
+    <Property Name="fare_Descripcion" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="fare_Estado" Type="bit" />
+    <Property Name="fare_UsuarioCrea" Type="int" Nullable="false" />
+    <Property Name="fare_FechaCrea" Type="datetime" Nullable="false" />
+    <Property Name="fare_UsuarioModifica" Type="int" />
+    <Property Name="fare_FechaModifica" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'RecursosHumanos.dbo.Prueba' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Prueba">
+    <Key>
+      <PropertyRef Name="fsel_Id" />
+    </Key>
+    <Property Name="fsel_Id" Type="int" Nullable="false" />
+    <Property Name="DatosPrincipales" Type="nvarchar(max)" />
+    <Property Name="FasesReclutamiento" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id">
+    <End Role="tbFasesReclutamiento" Type="Self.tbFasesReclutamiento" Multiplicity="1" />
+    <End Role="tbFaseSeleccion" Type="Self.tbFaseSeleccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbFasesReclutamiento">
+        <PropertyRef Name="fare_Id" />
+      </Principal>
+      <Dependent Role="tbFaseSeleccion">
+        <PropertyRef Name="fare_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="FasesReclutamiento" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="RecursosHumanosModelStoreContainer">
+    <EntitySet Name="tbFaseSeleccion" EntityType="Self.tbFaseSeleccion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbFasesReclutamiento" EntityType="Self.tbFasesReclutamiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prueba" EntityType="Self.Prueba" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Prueba].[fsel_Id] AS [fsel_Id], 
+    [Prueba].[DatosPrincipales] AS [DatosPrincipales], 
+    [Prueba].[FasesReclutamiento] AS [FasesReclutamiento]
+    FROM [dbo].[Prueba] AS [Prueba]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id" Association="Self.FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id">
+      <End Role="tbFasesReclutamiento" EntitySet="tbFasesReclutamiento" />
+      <End Role="tbFaseSeleccion" EntitySet="tbFaseSeleccion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

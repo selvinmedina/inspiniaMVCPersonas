@@ -1,0 +1,36 @@
+.editar{
+  /*background-color: #ffffff;
+  border-color:#c9703a;*/
+  border-radius: 2px;
+  padding: .290rem .50rem;
+  border-style: outset;
+  border-width: 7px;
+  margin:1%;      
+}
+.eliminar{
+  background-color:#ff6164;
+  border-color:#db4454;
+  border-radius: 2px;
+  border-width: 2px;
+  padding: .300rem .60rem;
+  border-style: outset;  
+  /*margin:1%;*/        
+}
+.Details{
+  background-color: #ffffff;
+  border-color:#db4454;
+  border-radius: 2px;
+  border-width: 2px;
+  padding: .300rem .60rem;
+  border-style: outset;  
+  margin:1%;        
+}
+td.details-control {
+    background: url('../../Content/img/details_open.png') no-repeat center center;
+    cursor: pointer;  
+
+}
+
+tr.shown td.details-control {
+    background: url('../../Content/img/details_close.png') no-repeat center center;
+}

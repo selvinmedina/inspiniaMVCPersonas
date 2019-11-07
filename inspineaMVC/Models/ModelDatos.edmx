@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="RecursosHumanosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tbFaseSeleccion">
+          <Key>
+            <PropertyRef Name="fsel_Id" />
+          </Key>
+          <Property Name="fsel_Id" Type="int" Nullable="false" />
+          <Property Name="fare_Id" Type="int" Nullable="false" />
+          <Property Name="fare_fecha" Type="datetime" Nullable="false" />
+          <Property Name="fsel_UsuarioCrea" Type="int" Nullable="false" />
+          <Property Name="fsel_FechaCrea" Type="datetime" Nullable="false" />
+          <Property Name="fsel_UsuarioModifica" Type="int" />
+          <Property Name="fsel_FechaModifica" Type="datetime" />
+        </EntityType>
+        <EntityType Name="tbFasesReclutamiento">
+          <Key>
+            <PropertyRef Name="fare_Id" />
+          </Key>
+          <Property Name="fare_Id" Type="int" Nullable="false" />
+          <Property Name="fare_Descripcion" Type="nvarchar" MaxLength="25" Nullable="false" />
+          <Property Name="fare_Estado" Type="bit" />
+          <Property Name="fare_UsuarioCrea" Type="int" Nullable="false" />
+          <Property Name="fare_FechaCrea" Type="datetime" Nullable="false" />
+          <Property Name="fare_UsuarioModifica" Type="int" />
+          <Property Name="fare_FechaModifica" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'RecursosHumanos.dbo.Prueba' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Prueba">
+          <Key>
+            <PropertyRef Name="fsel_Id" />
+          </Key>
+          <Property Name="fsel_Id" Type="int" Nullable="false" />
+          <Property Name="DatosPrincipales" Type="nvarchar(max)" />
+          <Property Name="FasesReclutamiento" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id">
+          <End Role="tbFasesReclutamiento" Type="Self.tbFasesReclutamiento" Multiplicity="1" />
+          <End Role="tbFaseSeleccion" Type="Self.tbFaseSeleccion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbFasesReclutamiento">
+              <PropertyRef Name="fare_Id" />
+            </Principal>
+            <Dependent Role="tbFaseSeleccion">
+              <PropertyRef Name="fare_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="FasesReclutamiento" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="RecursosHumanosModelStoreContainer">
+          <EntitySet Name="tbFaseSeleccion" EntityType="Self.tbFaseSeleccion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbFasesReclutamiento" EntityType="Self.tbFasesReclutamiento" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Prueba" EntityType="Self.Prueba" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Prueba].[fsel_Id] AS [fsel_Id], 
+    [Prueba].[DatosPrincipales] AS [DatosPrincipales], 
+    [Prueba].[FasesReclutamiento] AS [FasesReclutamiento]
+    FROM [dbo].[Prueba] AS [Prueba]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id" Association="Self.FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id">
+            <End Role="tbFasesReclutamiento" EntitySet="tbFasesReclutamiento" />
+            <End Role="tbFaseSeleccion" EntitySet="tbFaseSeleccion" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RecursosHumanosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tbFaseSeleccion">
+          <Key>
+            <PropertyRef Name="fsel_Id" />
+          </Key>
+          <Property Name="fsel_Id" Type="Int32" Nullable="false" />
+          <Property Name="fare_Id" Type="Int32" Nullable="false" />
+          <Property Name="fare_fecha" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="fsel_UsuarioCrea" Type="Int32" Nullable="false" />
+          <Property Name="fsel_FechaCrea" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="fsel_UsuarioModifica" Type="Int32" />
+          <Property Name="fsel_FechaModifica" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="tbFasesReclutamiento" Relationship="Self.FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id" FromRole="tbFaseSeleccion" ToRole="tbFasesReclutamiento" />
+        </EntityType>
+        <EntityType Name="tbFasesReclutamiento">
+          <Key>
+            <PropertyRef Name="fare_Id" />
+          </Key>
+          <Property Name="fare_Id" Type="Int32" Nullable="false" />
+          <Property Name="fare_Descripcion" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="fare_Estado" Type="Boolean" />
+          <Property Name="fare_UsuarioCrea" Type="Int32" Nullable="false" />
+          <Property Name="fare_FechaCrea" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="fare_UsuarioModifica" Type="Int32" />
+          <Property Name="fare_FechaModifica" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="tbFaseSeleccion" Relationship="Self.FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id" FromRole="tbFasesReclutamiento" ToRole="tbFaseSeleccion" />
+        </EntityType>
+        <Association Name="FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id">
+          <End Role="tbFasesReclutamiento" Type="Self.tbFasesReclutamiento" Multiplicity="1" />
+          <End Role="tbFaseSeleccion" Type="Self.tbFaseSeleccion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbFasesReclutamiento">
+              <PropertyRef Name="fare_Id" />
+            </Principal>
+            <Dependent Role="tbFaseSeleccion">
+              <PropertyRef Name="fare_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RecursosHumanosEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tbFaseSeleccion" EntityType="Self.tbFaseSeleccion" />
+          <EntitySet Name="tbFasesReclutamiento" EntityType="Self.tbFasesReclutamiento" />
+          <AssociationSet Name="FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id" Association="Self.FK_tbtbFasereclutamiento_fare_Id_tbFaseSeleccion_fare_Id">
+            <End Role="tbFasesReclutamiento" EntitySet="tbFasesReclutamiento" />
+            <End Role="tbFaseSeleccion" EntitySet="tbFaseSeleccion" />
+          </AssociationSet>
+          <EntitySet Name="Prueba" EntityType="RecursosHumanosModel.Prueba" />
+          <FunctionImport Name="FasesReclutamiento" ReturnType="Collection(RecursosHumanosModel.FasesReclutamiento_Result)" />
+        </EntityContainer>
+        <EntityType Name="Prueba">
+          <Key>
+            <PropertyRef Name="fsel_Id" />
+          </Key>
+          <Property Name="fsel_Id" Type="Int32" Nullable="false" />
+          <Property Name="FasesReclutamiento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DatosPrincipales" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <ComplexType Name="FasesReclutamiento_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="25" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RecursosHumanosModelStoreContainer" CdmEntityContainer="RecursosHumanosEntities">
+          <EntitySetMapping Name="tbFaseSeleccion">
+            <EntityTypeMapping TypeName="RecursosHumanosModel.tbFaseSeleccion">
+              <MappingFragment StoreEntitySet="tbFaseSeleccion">
+                <ScalarProperty Name="fsel_Id" ColumnName="fsel_Id" />
+                <ScalarProperty Name="fare_Id" ColumnName="fare_Id" />
+                <ScalarProperty Name="fare_fecha" ColumnName="fare_fecha" />
+                <ScalarProperty Name="fsel_UsuarioCrea" ColumnName="fsel_UsuarioCrea" />
+                <ScalarProperty Name="fsel_FechaCrea" ColumnName="fsel_FechaCrea" />
+                <ScalarProperty Name="fsel_UsuarioModifica" ColumnName="fsel_UsuarioModifica" />
+                <ScalarProperty Name="fsel_FechaModifica" ColumnName="fsel_FechaModifica" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbFasesReclutamiento">
+            <EntityTypeMapping TypeName="RecursosHumanosModel.tbFasesReclutamiento">
+              <MappingFragment StoreEntitySet="tbFasesReclutamiento">
+                <ScalarProperty Name="fare_Id" ColumnName="fare_Id" />
+                <ScalarProperty Name="fare_Descripcion" ColumnName="fare_Descripcion" />
+                <ScalarProperty Name="fare_Estado" ColumnName="fare_Estado" />
+                <ScalarProperty Name="fare_UsuarioCrea" ColumnName="fare_UsuarioCrea" />
+                <ScalarProperty Name="fare_FechaCrea" ColumnName="fare_FechaCrea" />
+                <ScalarProperty Name="fare_UsuarioModifica" ColumnName="fare_UsuarioModifica" />
+                <ScalarProperty Name="fare_FechaModifica" ColumnName="fare_FechaModifica" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Prueba">
+            <EntityTypeMapping TypeName="RecursosHumanosModel.Prueba">
+              <MappingFragment StoreEntitySet="Prueba">
+                <ScalarProperty Name="DatosPrincipales" ColumnName="DatosPrincipales" />
+                <ScalarProperty Name="FasesReclutamiento" ColumnName="FasesReclutamiento" />
+                <ScalarProperty Name="fsel_Id" ColumnName="fsel_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="FasesReclutamiento" FunctionName="RecursosHumanosModel.Store.FasesReclutamiento">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="RecursosHumanosModel.FasesReclutamiento_Result">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

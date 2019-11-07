@@ -1,0 +1,53 @@
+﻿@model inspineaMVC.Models.tbFaseSeleccion
+	@{
+		ViewBag.Title = "Index";
+			Layout = "~/Views/Shared/_Layout.cshtml";
+	}
+	<div class="row wrapper border-bottom white-bg page-heading">
+		<div class="col-sm-4">
+			<ol class="breadcrumb">
+				<li class="active">
+					<strong>tbFaseSeleccion</strong>
+				</li>
+			</ol>
+		</div>
+	</div>
+		<div class="wrapper wrapper-content animated fadeInRight">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<input type="button" class="btn btn-primary btn-xs pull-left" id="btnActualizar" value="Actualizar" />
+                        <input type="button" class="btn btn-primary btn-xs pull-right" data-toggle="modal" data-target="#modalNuevo" value="Nuevo" />
+					</div>
+					<div class="ibox-content">
+						<table id="tabla" class="table table-striped">	
+						<thead>
+							<tr>
+                                <th>
+									@Html.DisplayNameFor(model => model.fare_fecha)
+								</th><th>
+									@Html.DisplayNameFor(model => model.tbFasesReclutamiento.fare_Descripcion)
+								</th>
+									<th>Acciones</th>			
+							</tr>		
+						</thead>
+						<tbody></tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	 </div>	 
+@section Styles{
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+    @Styles.Render("~/Content/tabla")
+}
+
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+    @Scripts.Render("~/general/Modals")
+    @Scripts.Render("~/general/Simple")
+    @Scripts.Render("~/view/Seleccion")
+}
+		

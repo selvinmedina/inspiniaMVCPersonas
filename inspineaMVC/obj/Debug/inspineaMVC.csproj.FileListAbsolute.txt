@@ -1,0 +1,375 @@
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\ApplicationInsights.config
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\csc.exe
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\vbc.exe
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll.config
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\inspineaMVC.pdb
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\EntityFramework.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Http.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Razor.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\WebGrease.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\EntityFramework.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Http.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.Razor.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.pdb
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\ApplicationInsights.config
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\csc.exe
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\vbc.exe
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll.config
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\inspineaMVC.pdb
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\EntityFramework.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Http.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Razor.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\WebGrease.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\EntityFramework.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Http.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.Razor.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.csprojResolveAssemblyReference.cache
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.dll
+C:\Users\LAB01\Desktop\Nueva carpeta\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.pdb
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\ApplicationInsights.config
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\csc.exe
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\vbc.exe
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll.config
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.pdb
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Razor.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\WebGrease.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Razor.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.dll
+C:\Users\alex diaz\Desktop\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.pdb
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\ApplicationInsights.config
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\csc.exe
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\vbc.exe
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll.config
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.pdb
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Razor.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\WebGrease.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Razor.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.dll
+C:\Users\LAB01\Desktop\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.pdb
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\ApplicationInsights.config
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\csc.exe
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\vbc.exe
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll.config
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\inspineaMVC.pdb
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Razor.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\WebGrease.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.Razor.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.csprojResolveAssemblyReference.cache
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.dll
+C:\Users\Informatica\Desktop\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.pdb
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\ApplicationInsights.config
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\csc.exe
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\vbc.exe
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll.config
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\inspineaMVC.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\inspineaMVC.pdb
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\EntityFramework.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Http.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Razor.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\WebGrease.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\EntityFramework.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.Web.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\Newtonsoft.Json.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Helpers.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Http.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Mvc.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Optimization.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.Razor.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.dll
+C:\Users\a\Documents\Planillas\inspineaMVC\inspineaMVC\obj\Debug\inspineaMVC.pdb

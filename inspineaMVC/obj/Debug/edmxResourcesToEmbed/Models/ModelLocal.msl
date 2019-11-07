@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebasModelStoreContainer" CdmEntityContainer="PruebasEntities">
+    <EntitySetMapping Name="Persona">
+      <EntityTypeMapping TypeName="PruebasModel.Persona">
+        <MappingFragment StoreEntitySet="Persona">
+          <ScalarProperty Name="per_id" ColumnName="per_id" />
+          <ScalarProperty Name="per_nombre" ColumnName="per_nombre" />
+          <ScalarProperty Name="per_apellido" ColumnName="per_apellido" />
+          <ScalarProperty Name="per_edad" ColumnName="per_edad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="UDP_Persona_Insert" FunctionName="PruebasModel.Store.UDP_Persona_Insert" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Pruebas.dbo.Persona' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="per_id" />
+    </Key>
+    <Property Name="per_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="per_nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="per_apellido" Type="nvarchar" MaxLength="100" />
+    <Property Name="per_edad" Type="int" />
+  </EntityType>
+  <Function Name="UDP_Persona_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="per_id" Type="int" Mode="In" />
+    <Parameter Name="per_nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="per_apellido" Type="nvarchar" Mode="In" />
+    <Parameter Name="per_edad" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="PruebasModelStoreContainer">
+    <EntitySet Name="Persona" EntityType="Self.Persona" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Persona].[per_id] AS [per_id], 
+    [Persona].[per_nombre] AS [per_nombre], 
+    [Persona].[per_apellido] AS [per_apellido], 
+    [Persona].[per_edad] AS [per_edad]
+    FROM [dbo].[Persona] AS [Persona]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

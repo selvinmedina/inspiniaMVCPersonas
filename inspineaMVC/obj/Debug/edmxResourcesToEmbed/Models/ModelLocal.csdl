@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="per_id" />
+    </Key>
+    <Property Name="per_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="per_nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="per_apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="per_edad" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="PruebasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Persona" EntityType="Self.Persona" />
+    <FunctionImport Name="UDP_Persona_Insert" ReturnType="Collection(String)">
+      <Parameter Name="per_id" Mode="In" Type="Int32" />
+      <Parameter Name="per_nombre" Mode="In" Type="String" />
+      <Parameter Name="per_apellido" Mode="In" Type="String" />
+      <Parameter Name="per_edad" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,35 @@
+<#
+	foreach (PropertyMetadata property in properties) {
+		if (property.Scaffold && !property.IsPrimaryKey && !property.IsForeignKey) {
+	#>
+	<#
+			// This is a temporary work around until core scaffolding provides support for independent associations.
+			if (property.IsAssociation && GetRelatedModelMetadata(property) == null) {
+				continue;
+			}
+	#>
+			<td>
+				@Html.DisplayFor(modelItem => <#= "item." + GetValueExpression(property) #>)
+			</td>
+	<#
+		}
+	}
+	string pkName = GetPrimaryKeyName();
+	if (pkName != null) {
+	#>
+			<td>
+			@Html.ActionLink("Details", "Details", new { id=item.<#= pkName #> }, new { @class = "btn btn-primary btn-sm"})
+				@Html.ActionLink("Edit", "Edit", new { id=item.<#= pkName #> }, new { @class = "btn btn-white btn-sm"})
+				@Html.ActionLink("Delete", "Delete", new { id=item.<#= pkName #> }, new { @class = "btn btn-white btn-sm"})
+			</td>
+	<#
+	} else {
+	#>
+			<td>
+			@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-primary btn-sm"})
+				@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-white btn-sm"})
+				@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-white btn-sm"})
+			</td>
+	<#
+	}
+	#>
